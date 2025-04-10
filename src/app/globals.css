@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme{
+    --color-primarys: #0ef;
+    --color-background: #151515;
+    --font-poppins: "Poppins", serif;
+    --shadow-lgs: 0 0 12px #0ef;
+
+}
+
+
+/*============== custom scroll bar============ */
+::-webkit-scrollbar{
+    width: 2px;
+}
+::-webkit-scrollbar-track{
+    background-color: chocolate ;
+}
+::-webkit-scrollbar-thumb{
+    background: #0ef;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: rosybrown;
+}
+/*============== custom scroll bar end============ */
+
+
+body{
+    @apply font-poppins;
+}
+
+.home_secton{
+    @apply flex flex-col gap-9 md:flex-row w-full;
+}
+.left_site{
+    @apply text-white w-full ;
+}
+.home_sb{
+    @apply bg-gradient-to-r from-primarys to-violet-500 bg-clip-text text-5xl font-extrabold text-transparent text-[35px] my-3 text-wrap ;
+}
+.home_title{
+    @apply bg-gradient-to-r from-primarys to-violet-500 bg-clip-text text-5xl font-extrabold text-transparent text-[25px] my-3  ;
+}
+.home_paragraph{
+    @apply  mt-1.5 max-w-[500px] text-[17px] leading-[30px] text-wrap text-white;
+}
+.home_button{
+    @apply  text-black rounded-lg bg-primarys shadow-lgs shadow-primarys/50 w-[200px] h-12 text-[25px] font-semibold transition-all mt-8 hover:bg-amber-400 hover:bg-linear-to-r/increasing from-indigo-500 to-teal-400 hover:shadow-none cursor-pointer;
+}
+/* home sectoin end */
+/* media component start */
+.media_component{
+    @apply flex gap-7 mt-8 justify-center md:justify-start;
+}
+.media_icon{
+    @apply  w-8 h-8 border-1 border-primarys rounded-full  text-primarys hover:bg-primarys hover:text-black  hover:shadow-lgs transition-all duration-500;
+}
+/* media component end */
+/* resume section start */
+.button_components{
+    @apply flex flex-col gap-2 space-y-3 mt-10;
+}
+.button_router{
+  @apply bg-gray-700 w-[300px] rounded-full cursor-pointer hover:bg-primarys hover:text-black transition-all duration-300 hover:shadow-lgs;
+}
+
+.resume_title{
+    @apply  text-center text-[30px] font-bold text-primarys ;
+}
+.resume_paragraph{
+    @apply  max-w-[400px] lg:max-w-[570px] text-center text-wrap text-[20px] leading-[30px] text-gray-400;
+}
+.resume_about_p{
+    @apply text-[23px] text-primarys  py-2 ;
+}
+.resume_about_span{
+    @apply  text-[17px] text-gray-300;
+}
