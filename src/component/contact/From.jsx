@@ -68,7 +68,7 @@ function From() {
       });
     
     return (
-        <div className='py-10 lg:pt-0 lg:-mt-5 bg-background w-full flex flex-col justify-center items-center '>
+        <div className='py-10 lg:pt-0 lg:-mt-5 bg-background w-[100%] flex flex-col justify-center items-center '>
            <form   className='w-full lg:ml-26' onSubmit={handleSubmit}>
            <fieldset className="fieldset w-full bg-base-200 border border-base-300 p-4 rounded-box">
                 

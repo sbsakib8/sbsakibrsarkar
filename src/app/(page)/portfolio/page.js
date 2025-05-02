@@ -72,13 +72,13 @@ const project = [
 
 function Portfolio() {
   return (
-    <div>
-      <h2 className="text-[30px] md:text-[40px] text-primarys font-bold ">Portfolio</h2>
-     <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-5">
+    <div className="w-[100%] 2xl:w-screen 2xl:scale-105 2xl:mx-40 bg-background ">
+      <h2 className="text-[30px] md:text-[40px] text-primarys font-bold 2xl:text-8xl ">Portfolio</h2>
+     <div className="2xl:w-[90%] 2xl:px-[20px] 2xl:scale-105 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:gap-10 2xl:justify-items-center gap-3 mt-5 2xl:mt-20">
       {
         project.map((itme)=>{
            return(
-            <div className="card bg-base-100 w-96 shadow-sm" key={itme.id}>
+            <div className="card 2xl:w-[88%] bg-base-100 w-96  shadow-sm" key={itme.id}>
             <figure>
               <img
                 src={itme.image}
