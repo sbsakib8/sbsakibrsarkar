@@ -3,7 +3,7 @@ function ModalService({id, title, description,can1, can2, can3, can4, can5, can6
   return (
   <>
 <dialog id={`modal${id}`} className="modal bg-background">
-  <div className="modal-box">
+  <div className="modal-box ">
     <form method="dialog">
       {/* if there is a button in form, it will close the modal */}
       <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 text-gray-200 ">✕</button>
@@ -37,7 +37,7 @@ I am always ready to work with you. please contact me before placing an order.
 Thanks!</p>
   </div>
 </dialog>
-<button className="btn bg-primarys rounded-full hover:text-black text-[18px] outline-0  shadow-lgs" onClick={()=>document.getElementById("modal"+id).showModal()}>See more</button>
+<button className="btn 2xl:w-[300px] 2xl:h-[80px] bg-primarys rounded-full hover:text-black text-[18px] 2xl:text-4xl outline-0  shadow-lgs" onClick={()=>document.getElementById("modal"+id).showModal()}>See more</button>
 </>
   )
 }

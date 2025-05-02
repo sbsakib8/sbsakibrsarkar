@@ -130,14 +130,14 @@ function Skill() {
 {/* frontend skils div */}
       <div className="shadow-md shadow-gray-400 py-3 mt-5">
         <h5 className='resume_title '>Frontend</h5>
-        <ul className=" flex flex-wrap gap-5 px-4 py-3 ">
+        <ul className=" flex flex-wrap gap-5 2xl:gap-6 px-4 py-3 ">
           {
             Frontend.map((skill)=>{
               return (
                
-                 <li className=" w-[120px] h-[100px] bg-gray-400 flex flex-col justify-center rounded-lg items-center shadow-lgs cursor-pointer  hover:animate-ping transition-all duration-200  " key={skill.id} >
-                 <p className=" text-[50px]">  {skill.icon} </p>
-                 <p className="py-3 text-black text-[18px] font-bold ">{skill.name}</p>
+                 <li className=" w-[120px] 2xl:w-[320px] h-[100px] 2xl:h-[180px] bg-gray-400 flex flex-col justify-center rounded-lg items-center shadow-lgs cursor-pointer  hover:animate-ping transition-all duration-200   " key={skill.id} >
+                 <p className=" text-[50px] 2xl:text-6xl">  {skill.icon} </p>
+                 <p className="py-3 text-black text-[18px] font-bold 2xl:text-5xl">{skill.name}</p>
                 </li>
               
               )
@@ -150,14 +150,14 @@ function Skill() {
 {/* backend skils div */}
       <div className="shadow-md shadow-gray-400 py-3 mt-5">
         <h5 className='resume_title text-primary'>backend</h5>
-        <ul className=" flex flex-wrap gap-5 px-4 py-3 ">
+        <ul className=" flex flex-wrap gap-5  2xl:gap-6 px-4 py-3 ">
           {
             Backend.map((skill)=>{
               return (
                
-                 <li className=" w-[120px] h-[100px] bg-gray-400 flex flex-col justify-center rounded-lg items-center shadow-lgs cursor-pointer  hover:animate-ping transition-all duration-200 " key={skill.id} >
-                 <p className=" text-[50px]">  {skill.icon} </p>
-                 <p className="py-3 text-black text-[18px] font-bold ">{skill.name}</p>
+                 <li className="  w-[120px] 2xl:w-[320px] h-[100px] 2xl:h-[180px] bg-gray-400 flex flex-col justify-center rounded-lg items-center shadow-lgs cursor-pointer  hover:animate-ping transition-all duration-200 " key={skill.id} >
+                 <p className=" text-[50px] 2xl:text-6xl">  {skill.icon} </p>
+                 <p className="py-3 text-black text-[18px] font-bold 2xl:text-5xl ">{skill.name}</p>
                 </li>
               
               )
@@ -171,14 +171,14 @@ function Skill() {
       {/* ui div */}
       <div className="shadow-md shadow-gray-400 py-3 mt-5">
         <h5 className='resume_title '>UI Design</h5>
-        <ul className=" flex flex-wrap gap-5 px-4 py-3 ">
+        <ul className=" flex flex-wrap gap-5  2xl:gap-6 px-4 py-3 ">
           {
             UI.map((skill)=>{
               return (
                
-                 <li className=" w-[130px] h-[100px]  flex flex-col justify-center rounded-lg items-center shadow-lgs cursor-pointer hover:animate-ping transition-all duration-200 bg-gray-400 " key={skill.id} >
-                 <p className=" text-[50px] mt-5">  {skill.icon} </p>
-                 <p className="py-3 text-black text-[18px] font-bold ">{skill.name}</p>
+                 <li className="  w-[120px] 2xl:w-[320px] h-[100px] 2xl:h-[180px]  flex flex-col justify-center rounded-lg items-center shadow-lgs cursor-pointer hover:animate-ping transition-all duration-200 bg-gray-400 " key={skill.id} >
+                 <p className=" text-[50px] mt-5 2xl:text-6xl">  {skill.icon} </p>
+                 <p className="py-3 text-black text-[18px] font-bold 2xl:text-5xl ">{skill.name}</p>
                 </li>
               
               )
