@@ -6,8 +6,8 @@ import { MdEmail } from "react-icons/md";
 import { TbWorld } from "react-icons/tb";
 function Contact() {
   return (
-    <div className=" w-[100%] bg-background  2xl:w-[100%]  2xl:mx-40 2xl:scale-105 ">
-      <h2 className=" text-[30px] md:text-[40px] 2xl:text-[80px] text-primarys font-bold">Contact Me</h2>
+    <div className=" w-screen md:w-[100%] bg-background  2xl:w-[100%]  2xl:mx-40 2xl:scale-105 mt-10 md:mt-0 ">
+      <h2 className=" text-[30px] md:text-[40px] 2xl:text-[80px] text-primarys font-bold text-center md:text-start ">Contact Me</h2>
       <div className=" w-[100%] flex flex-col items-center ">
         <div className="w-[100%] h-full flex flex-col items-center mt-5 2xl:mt-20">
           <h4 className=" text-primarys text-[26px] 2xl:text-[89px]">Have you any Qestions ?</h4>
@@ -51,7 +51,7 @@ function Contact() {
 
       </div>
 {/* from div */}
-      <div className=''>
+      <div className=" w-full h-full flex flex-col items-center mb-10 lg:mb-26">
  <From/>
       </div>
 

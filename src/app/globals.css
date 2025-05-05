@@ -33,22 +33,22 @@ body{
 }
 
 .home_secton{
-    @apply flex flex-col gap-9 md:flex-row w-full;
+    @apply flex flex-col gap-9 2xl:gap-2 md:flex-row w-screen md:w-[100%] bg-background ;
 }
 .left_site{
-    @apply text-white w-full ;
+    @apply text-white w-full 2xl:w-[50%] 2xl:flex 2xl:flex-col 2xl:justify-center 2xl:items-center pl-5 md:pl-0 ;
 }
 .home_sb{
-    @apply bg-gradient-to-r from-primarys to-violet-500 bg-clip-text text-5xl font-extrabold text-transparent text-[35px] my-3 text-wrap ;
+    @apply bg-gradient-to-r from-primarys to-violet-500 bg-clip-text text-5xl font-extrabold text-transparent text-[35px] 2xl:text-[59px] my-3 text-wrap ;
 }
 .home_title{
-    @apply bg-gradient-to-r from-primarys to-violet-500 bg-clip-text text-5xl font-extrabold text-transparent text-[25px] my-3  ;
+    @apply bg-gradient-to-r from-primarys to-violet-500 bg-clip-text text-5xl font-extrabold text-transparent text-[25px] 2xl:text-[39px] my-3  ;
 }
 .home_paragraph{
-    @apply  mt-1.5 max-w-[500px] text-[17px] leading-[30px] text-wrap text-white;
+    @apply  mt-1.5 2xl:my-9 max-w-[500px] text-[17px] 2xl:text-[30px] leading-[30px] 2xl:leading-[40px] text-wrap text-white ;
 }
 .home_button{
-    @apply  text-black rounded-lg bg-primarys shadow-lgs shadow-primarys/50 w-[200px] h-12 text-[25px] font-semibold transition-all mt-8 hover:bg-amber-400 hover:bg-linear-to-r/increasing from-indigo-500 to-teal-400 hover:shadow-none cursor-pointer;
+    @apply  text-black rounded-lg bg-primarys shadow-lgs shadow-primarys/50 w-[200px] 2xl:w-[300px] h-12 2xl:h-[80px] text-[25px] 2xl:text-[50px] font-semibold transition-all mt-8 hover:bg-amber-400 hover:bg-linear-to-r/increasing from-indigo-500 to-teal-400 hover:shadow-none cursor-pointer;
 }
 /* home sectoin end */
 /* media component start */

@@ -68,18 +68,18 @@ function From() {
       });
     
     return (
-        <div className='py-10 lg:pt-0 lg:-mt-5 bg-background w-[100%] flex flex-col justify-center items-center '>
-           <form   className='w-full lg:ml-26' onSubmit={handleSubmit}>
-           <fieldset className="fieldset w-full bg-base-200 border border-base-300 p-4 rounded-box">
+        <div className='py-10  lg:pt-0 lg:-mt-5 bg-background w-[100%] 2xl:w-[80%] flex flex-col justify-center items-center '>
+           <form   className=' bg-background 2xl:w-[80%] ' onSubmit={handleSubmit}>
+           <fieldset className="fieldset  bg-background  border border-base-300 p-4 rounded-box">
                 
                 <div className="flex flex-col lg:flex-row gap-5 md:gap-10">
                
                  <input  onChange={formik.handleChange} id="name"
-         name="name" value={formik.values.name} type="text" className="input w-full md:w-1/2 text-[18px] " placeholder="Name" />
+         name="name" value={formik.values.name} type="text" className="input w-full 2xl:h-[80px] md:w-1/2 text-[18px] 2xl:text-[35px] " placeholder="Name" />
         
                  
                  <input onChange={formik.handleChange} id="email"
-         name="email" value={formik.values.email} type="email" className="input w-full md:w-1/2 text-[16px]" placeholder="Email" />
+         name="email" value={formik.values.email} type="email" className="input w-full 2xl:h-[80px] md:w-1/2 text-[16px] 2xl:text-[35px]" placeholder="Email" />
             
                 </div>
                 <br />
@@ -98,7 +98,7 @@ function From() {
                 </div>
 
                 <input onChange={formik.handleChange} id="Subject"
-         name="Subject" value={formik.values.Subject} type="text" className="input w-full  text-[24px] font-bold" placeholder="Subject" />
+         name="Subject" value={formik.values.Subject} type="text" className="input w-full 2xl:h-[80px]  text-[24px] 2xl:text-[35px] font-bold " placeholder="Subject" />
                  <br/>
                  {
                   formik.touched.Subject && formik.errors.Subject? (
@@ -106,7 +106,7 @@ function From() {
                   ) : null
                 }
                  <textarea onChange={formik.handleChange} id="message"
-         name="message" value={formik.values.message} className="textarea h-34 w-full  text-[17px]" placeholder="Bio"></textarea>
+         name="message" value={formik.values.message} className="textarea h-34 w-full  text-[17px] 2xl:text-[35px]" placeholder="Bio"></textarea>
   
                    <br/>
                    {
@@ -114,7 +114,7 @@ function From() {
                     <p className="text-red-500 ">{formik.errors.message}</p>
                   ) : null
                 }
-                <button type="submit" className="btn btn-neutral mt-4 w-[200px] rounded-full bg-primarys text-black text-[18px] font-bold hover:shadow-lgs">Send Message</button>
+                <button type="submit" className="btn btn-neutral mt-4 w-[200px] 2xl:h-[80px] rounded-full bg-primarys text-black text-[18px] font-bold hover:shadow-lgs 2xl:text-[25px]">Send Message</button>
              </fieldset>
            </form>
         </div>
