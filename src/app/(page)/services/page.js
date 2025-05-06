@@ -86,14 +86,14 @@ const Service = [
 
 function Services() {
   return (
-    <div className=' w-[100%]  2xl:w-screen bg-background 2xl:scale-105 2xl:h-[900px] 2xl:px-30'>
+    <div className=' w-[100%]  2xl:w-screen bg-background 2xl:scale-105 2xl:h-[900px] 2xl:px-30 mb-9'>
       <h2 className='text-[30px] md:text-[40px] text-primarys font-bold'>Services</h2>
 
-   <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 justify-items-center mt-7 lg:pl-12">
+   <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 md:gap-5 justify-items-center mt-7 lg:pl-12">
    {
           Service.map((itme)=>{
             return(
-              <div id={itme.id} className=" w-[280px] 2xl:w-[500px] h-[260px] 2xl:h-[400px] bg-gray-500 rounded-lg flex flex-col  items-center space-y-2 cursor-pointer hover:animate-pulse " key={itme.id}>
+              <div id={itme.id} className=" w-[340px] md:w-[300px] 2xl:w-[500px] h-[315px] md:h-[300px] 2xl:h-[400px] bg-gray-500 rounded-lg flex flex-col  items-center space-y-2 cursor-pointer hover:animate-pulse " key={itme.id}>
         <h4 className=" mt-3 text-[35px] text-primarys"><FaLaptopCode /></h4>
         <h3 className=" text-[25px] font-bold 2xl:text-[40px]">{itme.title}</h3>
         <p className=" px-4 text-white text-[16px] leading-[26px] 2xl:text-[20px] 2xl:mb-[30px]"> {itme.description} </p>
