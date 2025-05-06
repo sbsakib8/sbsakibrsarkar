@@ -31,16 +31,16 @@ function Navber({ children }) {
                     />
                 </div>
                 <div className={`${open ? ' hidden md:block' : 'hidden'} text-center -mt-7 duration-500 cursor-pointer `}>
-                    <Link className="bg-gradient-to-r from-[#0ef] to-violet-500 bg-clip-text text-5xl font-extrabold text-transparent" href='/'>SB</Link>
+                    <Link className="bg-gradient-to-r from-[#0ef] to-violet-500 bg-clip-text text-5xl font-extrabold text-transparent 2xl:text-5xl" href='/'>SB</Link>
                 </div>
-                <div className='flex flex-col mt-4 md:mt-20 gap-5'>
+                <div className='flex flex-col mt-4 md:mt-20 gap-5 2xl:gap-14'>
                     {menus.map((item, index) => (
                         <Link 
                             key={index} 
                             href={item.link} 
-                            className={`${pathname === item.link ? 'bg-[#0ef] text-black rotate-[360deg] text-[23px] duration-500 ': null} group flex items-center  gap-3.5 font-medium p-2 hover:bg-gray-800 rounded-md`}
+                            className={`${pathname === item.link ? 'bg-[#0ef] text-black rotate-[360deg] text-[23px] 2xl:text-5xl duration-500 ': null} group flex items-center  gap-3.5 font-medium p-2 hover:bg-gray-800 rounded-md`}
                         >
-                            <p className='text-[24px] '>{item.icon}</p>
+                            <p className='text-[24px] 2xl:text-3xl'>{item.icon}</p>
                             <p style={{ transitionDelay: `${index + 3}00ms` }} className={`duration-500 ${!open && 'opacity-0 translate-x-28 overflow-hidden'} hidden md:block`}>
                                 {item.menu}
                             </p>
