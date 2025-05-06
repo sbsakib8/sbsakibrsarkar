@@ -18,27 +18,27 @@ function Contact() {
         <div className="flex flex-col lg:flex-row  items-center gap-10 lg:gap-26 pl-10 mt-10 lg:mt-16">
           {/* call div */}
           <div>
-            <IoCall className="contact_icon text-primarys text-[40px]" />
-            <h5 className="text-[20px] 2xl:text-4xl font-bold">Call Us On</h5>
+            <IoCall className="contact_icon text-primarys text-[40px] mx-auto" />
+            <h5 className="text-[20px] 2xl:text-4xl font-bold text-center">Call Us On</h5>
             <p className="2xl:text-[20px] ">Phone: +971 55 555 5555</p>
           </div>
           {/* location div */}
           <div>
-            <IoLocationSharp className="contact_icon text-primarys text-[40px]" />
-            <h5 className="text-[20px] 2xl:text-4xl  font-bold">Office</h5>
+            <IoLocationSharp className="contact_icon text-primarys text-[40px] mx-auto" />
+            <h5 className="text-[20px] 2xl:text-4xl  font-bold text-center">Office</h5>
             <p className="2xl:text-[20px] ">1700 Street, Gazipur, Joydebpur</p>
           </div>
           {/* email div */}
           <div>
-            <MdEmail className="contact_icon text-primarys text-[40px]" />
-            <h5 className="text-[20px] 2xl:text-4xl  font-bold">Email</h5>
+            <MdEmail className="contact_icon text-primarys text-[40px] mx-auto" />
+            <h5 className="text-[20px] 2xl:text-4xl  font-bold text-center">Email</h5>
             <p className="2xl:text-[20px] ">sbsakibsarkar8@gmail.com</p>
             <p className="2xl:text-[20px] ">sakibhossain7397@gmail.com</p>
           </div>
           {/* website div */}
           <div>
-            <TbWorld className="contact_icon text-primarys text-[40px]" />
-            <h5 className="text-[20px] 2xl:text-4xl  font-bold">WebSite</h5>
+            <TbWorld className="contact_icon text-primarys text-[40px] mx-auto" />
+            <h5 className="text-[20px] 2xl:text-4xl  font-bold text-center">WebSite</h5>
             <p className="2xl:text-[20px] ">www.sbsakib.com</p>
           </div>
 

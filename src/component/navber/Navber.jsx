@@ -23,7 +23,7 @@ function Navber({ children }) {
     return (
         <div className="flex flex-col md:flex-row">
             {/* Sidebar */}
-            <div className={`${open ? 'md:w-72' : 'md:w-16 w-16'} duration-500 h-[400px] md:h-full bg-[#222222] opacity-70 lg:opacity-90 bottom-30 md:bottom-0 fixed md:left-0 md:top-0 px-3 z-20 rounded-full md:rounded-none`}>
+            <div className={`${open ? 'md:w-[200px]' : 'md:w-16 w-16'} duration-500 h-[400px] md:h-full bg-[#222222] opacity-70 lg:opacity-90 bottom-30 md:bottom-0 fixed md:left-0 md:top-0 px-3 z-20 rounded-full md:rounded-none`}>
                 <div className='relative right-0 -mr-8 py-3 flex justify-end '>
                     <HiOutlineChevronDoubleRight 
                         onClick={() => setOpen(!open)} 
