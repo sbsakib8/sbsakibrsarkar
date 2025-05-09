@@ -20,7 +20,7 @@ function Contact() {
           <div>
             <IoCall className="contact_icon text-primarys text-[40px] mx-auto" />
             <h5 className="text-[20px] 2xl:text-4xl font-bold text-center">Call Us On</h5>
-            <p className="2xl:text-[20px] ">Phone: +971 55 555 5555</p>
+            <p className="2xl:text-[20px] ">Phone: +01768820891</p>
           </div>
           {/* location div */}
           <div>

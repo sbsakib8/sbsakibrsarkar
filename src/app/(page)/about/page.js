@@ -11,7 +11,13 @@ function About() {
       <h3 className=" font-bold text-[25px] md:text-[28px] leading-[30px] 2xl:text-5xl 2xl:my-[40px] ">I am SB Sakib Sarkar
       <AboutTyping/>
       </h3>
-      <p className="text-[21px] text-wrap md:pr-6 lg:mt-18 2xl:text-[45px]">I have been working in the field of web development since 2023. My passion for programming started when I was a kid. I love to think about the future, and I think programming is the best option in the future. I don't know if my coding is better than everyone else's. But I try my best to write good coding so that everyone will fall in love with my coding. I am now in Dubai. I am working in hotel.</p>
+      <p className="text-[21px] text-wrap md:pr-6 lg:mt-18 2xl:text-[45px]">I am a professional web developer.
+
+I build responsive and performance-oriented websites and applications, specifically using the MERN stack MongoDB, Express.js, React.js, Node.js.
+
+I can handle web design, API integration, backend development, and full-stack projects.
+
+I strive to ensure quality, clean code, and time management in every project. I always love learning new technologies and try to write clean code. As a developer, I ensure creative design and effective functionality..</p>
 
       <MediaAndButton/>
      </div>
