@@ -6,7 +6,7 @@ function Routers({children}) {
     <div className=' w-[100%] 2xl:w-screen flex flex-col  lg:flex-row gap-11'>
       <div className="w-full shadow-lgs py-4 lg:w-[50%] flex flex-col  items-center" >
         <h1 className="resume_title  ">Why Hire me? </h1>
-        <p  className="resume_paragraph ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem incidunt facere dolor dicta illo doloribus, commodi fugit rerum quas error!</p>
+        <p  className="resume_paragraph ">I'm not just a coder — I'm a problem solver. I think about each project in my own way, so that it really works for the user.</p>
       <Button/>
       </div>
       <div className=" lg:w-[1px] lg:h-screen lg:bg-primarys"></div>

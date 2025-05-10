@@ -14,6 +14,8 @@ import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
+import { TbApiOff } from "react-icons/tb";
+import { AiFillDatabase } from "react-icons/ai";
 
 // UI icon
 import { SiShadcnui } from "react-icons/si";
@@ -48,11 +50,11 @@ const Frontend = [
      icon: <RiTailwindCssFill />   
     },
     { id: 7,
-      name: "React",
+      name: "React.js",
      icon: <FaReact />   
     },
     { id: 8,
-      name: "Nextdotjs",
+      name: "Next.js",
      icon: <SiNextdotjs />   
     },
     { id: 9,
@@ -82,6 +84,14 @@ const Backend = [
     { id: 4,
       name: "Firebase",
      icon: <IoLogoFirebase />   
+    },
+    { id:5,
+      name: "REST API ",
+     icon: <TbApiOff />   
+    },
+    { id:6,
+      name: "JWT ",
+     icon: <AiFillDatabase />   
     },
     
     
@@ -118,14 +128,7 @@ function Skill() {
   return (
     <div className=" py-3  lg:px-7">
       <h4 className='resume_title '>My Skills</h4>
-      <p className="resume_paragraph">lorem
-        ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus,
-        lectus sed consectetur porttitor, urna velit bibendum velit, vel
-        consectetur neque dolor eu arcu. Sed vel massa quis est faucibus
-        consequat. Nulla facilisi. Donec in ipsum non massa bibendum
-        facilisis. Donec at libero id velit ultrices bibendum. Sed non
-        ligula a ipsum fermentum gravida. Donec at turpis a nisi vestibulum
-        aliquet.
+      <p className="resume_paragraph">Using my skills to create user-friendly, fast, and effective web applications that meet the client's business needs.
       </p>
 {/* frontend skils div */}
       <div className="shadow-md shadow-gray-400 py-3 mt-5">

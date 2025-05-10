@@ -4,44 +4,44 @@ const experience = [
   {
     id: 1,
     title: "Frontend Developer",
-    company: "Company Name",
-    date: "2020 - 2021",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel dapibus justo, et ullamcorper metus. Nullam varius, mauris ac dignissim feugiat, justo lectus sagittis velit."
+    company: "freelance",
+    date: "2021 - 2023",
+    description: "I create dynamic and user-friendly frontends using React and Next.js. I create interactive web pages according to your design."
   },
   {
     id: 2,
     title: "Backend Developer",
-    company: "Company Name",
-    date: "2020 - 2021",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel dapibus justo, et ullamcorper metus. Nullam varius, mauris ac dignissim feugiat, justo lectus sagittis velit."
+    company: "freelance",
+    date: "2023 - 2025",
+    description: "I build powerful backends for your website or app using Node.js and Express.js. Includes REST API, database connections, and user authentication."
   },
   {
     id: 3,
-    title: "UI/UX Designer",
-    company: "Company Name",
-    date: "2020 - 2021",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel dapibus justo, et ullamcorper metus. Nullam varius, mauris ac dignissim feugiat, justo lectus sagittis velit."
+    title: "Database setup and management",
+    company: "freelance",
+    date: "2023 - 2025",
+    description: "I create a complete database system for storing and managing data using MongoDB. I do data modeling and optimization as needed."
   },
   {
     id: 4,
-    title: "Full Stack Developer",
-    company: "Company Name",
-    date: "2020 - 2021",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel dapibus justo, et ullamcorper metus. Nullam varius, mauris ac dignissim feugiat, justo lectus sagittis velit."
+    title: "User authentication and security",
+    company: "freelance",
+    date: "2023 - 2025",
+    description: "I create user login/registration, private routes, and secure APIs using JWT and OAuth2. Your website will be secure and user-friendly."
   },
   {
     id: 5,
-    title: "Mobile App Developer",
-    company: "Company Name",
-    date: "2020 - 2021",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel dapibus justo, et ullamcorper metus. Nullam varius, mauris ac dignissim feugiat, justo lectus sagittis velit."
+    title: "E-commerce web application",
+    company: "freelance",
+    date: "2023 - 2025",
+    description: "I create a fully featured e-commerce site for you: including product management, order processing, and payment gateway integration."
   },
   {
     id: 6,
-    title: "Software Developer",
-    company: "Company Name",
-    date: "2020 - 2021",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel dapibus justo, et ullamcorper metus. Nullam varius, mauris ac dignissim feugiat, justo lectus sagittis velit."
+    title: "Custom web application",
+    company: "freelance",
+    date: "2023 - 2025",
+    description: "I create custom web applications according to your needs, such as blog sites, portfolios, admin panels, task managers, etc."
   },
 ]
 function Experience() {
@@ -51,7 +51,7 @@ function Experience() {
       <div className=" flex flex-col justify-center  items-center" >
       <h3 className='resume_title '> My Experience</h3>
       <p className="resume_paragraph">
-        dolor sit amet, consectetur adipiscing elit. Sed vel dapibus justo, et ullamcorper metus. Nullam varius, mauris ac dignissim feugiat, justo lectus sagittis velit.
+       I have been practicing with MERN Stack regularly for the past 2+ years and have built various types of web applications. I have also worked on small freelance projects for some clients. I have done the project planning, design, development and hosting myself.
       </p>
       </div>
       {/*  */}
