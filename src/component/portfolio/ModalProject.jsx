@@ -26,10 +26,10 @@ function ModalProject({id ,title ,img,description,technologies,repolink,weblink,
     <p>===============================</p>
     {/* weblink */}
    <div className="flex flex-col">
-   <Link className="text-[17px] my-1 text-green-300" href={weblink}>Check out the project here:{weblink}</Link>
+   <Link className="text-[17px] my-1 text-green-300" href={weblink} target="_blank">Check out the project here:{weblink}</Link>
 
 {/* relink */}
-<Link className="text-[17px] my-1  text-green-300" href={repolink}>Check out the repolink here:{repolink}</Link>
+<Link className="text-[17px] my-1  text-green-300" href={repolink} target="_blank">Check out the repolink here:{repolink}</Link>
 
    </div>
       </div>
