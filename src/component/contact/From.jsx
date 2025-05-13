@@ -73,11 +73,11 @@ function From() {
            <fieldset className="fieldset bg-background  border border-base-300 p-4 rounded-box">
                 
                 <div className="flex flex-col lg:flex-row gap-5 md:gap-10">
-               
+               <label className="md:hidden" htmlFor="name">Name</label>
                  <input  onChange={formik.handleChange} id="name"
          name="name" value={formik.values.name} type="text" className="input w-full 2xl:h-[80px] md:w-1/2 text-[18px] 2xl:text-[35px] " placeholder="Name" />
         
-                 
+                 <label className="md:hidden" htmlFor="gmail">Gmail</label>
                  <input onChange={formik.handleChange} id="email"
          name="email" value={formik.values.email} type="email" className="input w-full 2xl:h-[80px] md:w-1/2 text-[16px] 2xl:text-[35px]" placeholder="Email" />
             
@@ -96,7 +96,7 @@ function From() {
                   ) : null
                 }
                 </div>
-
+                <label className="md:hidden" htmlFor="Subject">Subject</label>
                 <input onChange={formik.handleChange} id="Subject"
          name="Subject" value={formik.values.Subject} type="text" className="input w-full 2xl:h-[80px]  text-[24px] 2xl:text-[35px] font-bold " placeholder="Subject" />
                  <br/>
@@ -105,6 +105,7 @@ function From() {
                     <p className="text-red-500">{formik.errors.Subject}</p>
                   ) : null
                 }
+                <label className="md:hidden" htmlFor="message">Message</label>
                  <textarea onChange={formik.handleChange} id="message"
          name="message" value={formik.values.message} className="textarea h-34 w-full  text-[17px] 2xl:text-[35px]" placeholder="Bio"></textarea>
   
